@@ -76,25 +76,6 @@ Analyze team performance and deal outcomes.
 
 Predict potential revenue based on pipeline data.
 
----
-
-# 📸 Screenshots
-
-### Dashboard
-
-![Dashboard Screenshot](docs/screenshots/dashboard.png)
-
-### Deal Insights
-
-![Deal Insights Screenshot](docs/screenshots/deal-insights.png)
-
-### Pipeline Analytics
-
-![Pipeline Screenshot](docs/screenshots/pipeline.png)
-
-*(Replace with real screenshots from the platform)*
-
----
 
 # 🏗 Architecture
 
