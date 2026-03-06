@@ -1,289 +1,73 @@
-# AgnaSIght
+# Welcome to your Lovable project
 
+## Project info
 
-# 🚀 AgnaSight – AI Deal Intelligence Platform
+**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
 
-![GitHub repo size](https://img.shields.io/github/repo-size/username/agnasight)
-![GitHub stars](https://img.shields.io/github/stars/username/agnasight?style=social)
-![GitHub forks](https://img.shields.io/github/forks/username/agnasight?style=social)
-![License](https://img.shields.io/badge/license-MIT-green)
-![AI Powered](https://img.shields.io/badge/AI-Powered-blue)
-![Sales Intelligence](https://img.shields.io/badge/Sales-Analytics-purple)
+## How can I edit this code?
 
-AgnaSight is an **AI-powered deal intelligence platform** that helps sales teams analyze pipeline health, detect risky deals, and increase win rates using intelligent insights and analytics.
+There are several ways of editing your application.
 
-It transforms **raw sales data into actionable insights** so teams can close deals faster and make better decisions.
+**Use Lovable**
 
----
+Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
 
-# 🌐 Live Demo
+Changes made via Lovable will be committed automatically to this repo.
 
-🔗 [https://agnasight.com](https://agnasight.com)
+**Use your preferred IDE**
 
----
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-# 📌 Table of Contents
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-* Overview
-* Features
-* Screenshots
-* Architecture
-* Tech Stack
-* Installation
-* Usage
-* Project Structure
-* API Integration
-* Roadmap
-* Contributing
-* License
+Follow these steps:
 
----
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-# 📖 Overview
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-Sales teams often lack clear visibility into their pipeline. Important signals about deal risk, engagement levels, and sales performance remain hidden in scattered data.
+# Step 3: Install the necessary dependencies.
+npm i
 
-**AgnaSight solves this problem using AI-driven analytics** to help teams:
-
-* Identify risky deals early
-* Track pipeline health
-* Improve deal conversion
-* Make data-driven decisions
-
----
-
-# ✨ Features
-
-## 🤖 AI Deal Intelligence
-
-AI analyzes sales data and provides insights about deal probability and engagement signals.
-
-## ⚠️ Risk Detection
-
-Automatically identifies **high-risk deals** and alerts the sales team.
-
-## 📊 Pipeline Analytics
-
-Track pipeline performance with intelligent dashboards.
-
-## 🎯 Actionable Recommendations
-
-Get suggestions for next actions to move deals forward.
-
-## 📈 Sales Performance Insights
-
-Analyze team performance and deal outcomes.
-
-## 🔮 Revenue Forecasting
-
-Predict potential revenue based on pipeline data.
-
----
-
-# 📸 Screenshots
-
-### Dashboard
-
-![Dashboard Screenshot](docs/screenshots/dashboard.png)
-
-### Deal Insights
-
-![Deal Insights Screenshot](docs/screenshots/deal-insights.png)
-
-### Pipeline Analytics
-
-![Pipeline Screenshot](docs/screenshots/pipeline.png)
-
-*(Replace with real screenshots from the platform)*
-
----
-
-# 🏗 Architecture
-
-```
-                ┌────────────────────┐
-                │     Data Sources    │
-                │ CRM / Calls / Email │
-                └─────────┬──────────┘
-                          │
-                          ▼
-                ┌────────────────────┐
-                │   Data Processing   │
-                │ ETL / Data Pipeline │
-                └─────────┬──────────┘
-                          │
-                          ▼
-                ┌────────────────────┐
-                │   AI Engine        │
-                │ Risk Scoring       │
-                │ Deal Prediction    │
-                └─────────┬──────────┘
-                          │
-                          ▼
-                ┌────────────────────┐
-                │ Analytics Dashboard │
-                │ Insights & Reports  │
-                └────────────────────┘
-```
-
----
-
-# 🧰 Tech Stack
-
-### Frontend
-
-* React / Next.js
-* Tailwind CSS
-* TypeScript
-
-### Backend
-
-* Node.js
-* Python AI Services
-* REST APIs
-
-### AI / Data
-
-* Machine Learning Models
-* NLP for conversation analysis
-* Predictive analytics
-
-### Integrations
-
-* Salesforce
-* CRM systems
-* Email platforms
-
-### Infrastructure
-
-* Cloud Hosting
-* Scalable APIs
-* Secure authentication
-
----
-
-# ⚙️ Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/username/agnasight.git
-```
-
-Navigate to the project:
-
-```bash
-cd agnasight
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Start development server:
-
-```bash
+# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
 
----
+**Edit a file directly in GitHub**
 
-# 🚀 Usage
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-1. Connect your CRM system
-2. Import sales pipeline data
-3. AI analyzes deal patterns
-4. View insights on the dashboard
-5. Take recommended actions to improve win rates
+**Use GitHub Codespaces**
 
----
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-# 📁 Project Structure
+## What technologies are used for this project?
 
-```
-agnasight
-│
-├── frontend
-│   ├── components
-│   ├── pages
-│   ├── dashboard
-│
-├── backend
-│   ├── api
-│   ├── services
-│   ├── models
-│
-├── ai-engine
-│   ├── prediction
-│   ├── risk-analysis
-│
-├── docs
-│   └── screenshots
-│
-└── README.md
-```
+This project is built with:
 
----
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-# 🔗 API Integration
+## How can I deploy this project?
 
-Example API request:
+Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
 
-```javascript
-GET /api/deals
+## Can I connect a custom domain to my Lovable project?
 
-Response:
-{
-  "deal_id": "123",
-  "risk_score": 0.72,
-  "status": "High Risk",
-  "recommendation": "Follow up with decision maker"
-}
-```
+Yes, you can!
 
----
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-# 🛣 Roadmap
-
-Future features planned:
-
-* AI conversation intelligence
-* Automated CRM updates
-* Predictive revenue forecasting
-* Advanced sales coaching insights
-* Mobile dashboard
-
----
-
-# 🤝 Contributing
-
-Contributions are welcome!
-
-Steps:
-
-1. Fork the repository
-2. Create a new branch
-3. Commit your changes
-4. Submit a Pull Request
-
----
-
-# 📜 License
-
-MIT License
-
----
-
-# ⭐ Support
-
-If you find this project useful:
-
-⭐ Star the repository
-🍴 Fork the project
-📢 Share with others
-
-
-
-It will make your repo **look like a professional startup project.**
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
